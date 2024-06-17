@@ -1,0 +1,91 @@
+{
+  "name": "emaileditor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/cli": "7.16.0",
+    "@babel/core": "7.16.0",
+    "@babel/node": "7.16.0",
+    "@babel/preset-react": "^7.24.7",
+    "@babel/register": "7.16.0",
+    "@date-io/dayjs": "^3.0.0",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/pickers": "^3.3.11",
+    "@pmmmwh/react-refresh-webpack-plugin": "0.5.11",
+    "@svgr/webpack": "^8.1.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.2",
+    "axios-retry": "^4.4.0",
+    "babel-eslint": "10.1.0",
+    "babel-jest": "26.6.3",
+    "babel-loader": "8.2.3",
+    "babel-plugin-add-module-exports": "1.0.4",
+    "babel-plugin-named-asset-import": "0.3.7",
+    "babel-preset-react-app": "10.0.0",
+    "copy-webpack-plugin": "11.0.0",
+    "cross-env": "7.0.3",
+    "css-minimizer-webpack-plugin": "5.0.1",
+    "dayjs": "^1.11.11",
+    "dompurify": "^3.1.5",
+    "html-webpack-plugin": "5.6.0",
+    "i18next": "^23.11.5",
+    "js-cookie": "^3.0.5",
+    "material-ui-color": "^1.2.0",
+    "mobx": "^6.12.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "suneditor": "2.41.3",
+    "suneditor-react": "3.3.0",
+    "web-vitals": "^2.1.4",
+    "webpack": "5.90.0",
+    "webpack-bundle-analyzer": "4.10.1",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "4.15.1",
+    "webpack-manifest-plugin": "5.0.0",
+    "windows-iana": "^5.1.0",
+    "css-loader": "5.2.7",
+    "sass-loader": "10.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build-dev": "cross-env webpackEnv=development webpack --config webpack-config/webpack.config.ts",
+    "build-sandbox": "cross-env webpackEnv=sandbox webpack --config webpack-config/webpack.config.ts",
+    "build-prod": "cross-env webpackEnv=production webpack --config webpack-config/webpack.config.ts",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react",
+      "@babel/preset-typescript"
+    ]
+  },
+  "devDependencies": {
+    "mobx-react-lite": "^4.0.7",
+    "react-i18next": "^14.1.2"
+  }
+}
