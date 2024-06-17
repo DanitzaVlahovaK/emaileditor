@@ -1,0 +1,36 @@
+.accordionContainer {
+  margin-bottom: 15px;
+}
+
+.heading {
+  color: #384348 !important;
+  font: 26px RobotoBold, serif !important;
+}
+
+.secondaryHeading {
+  color: #384348 !important;
+  font: 16px Roboto, serif !important;
+}
+
+.accordion {
+  border-radius: 10px !important;
+  box-shadow: 0 3px 6px #00000029 !important;
+}
+
+.accordion::before {
+  display: none !important;
+}
+
+.summary {
+  padding: 9px 18px !important;
+}
+
+.summary > div {
+  flex-direction: column;
+}
+
+.doubleArrow {
+  color: #384348 !important;
+  font-size: 28px;
+  transform: rotate(90deg) !important;
+}

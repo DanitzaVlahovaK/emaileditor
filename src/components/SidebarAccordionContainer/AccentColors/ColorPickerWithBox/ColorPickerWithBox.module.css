@@ -1,0 +1,88 @@
+.colorPickerContainer {
+  margin: 17px 0 0 0;
+}
+
+.selectContainer {
+  display: flex;
+  align-items: center;
+}
+
+.colorPickerHeading {
+  font: 16px RobotoBold, serif;
+}
+
+.colorPickerSelect {
+  width: 195px !important;
+  height: 35px !important;
+  margin: 5px 0 0 0;
+  border-radius: 6px !important;
+}
+
+.colorPickerSelect > div:focus {
+  background-color: unset !important;
+}
+
+.colorBtn {
+  position: relative;
+  width: 35px !important;
+  height: 35px !important;
+  border: 1px solid black;
+  margin: 0 0 0 14px !important;
+  border-radius: 6px !important;
+}
+
+.strikethrough::after {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  border-color: #ff0000 !important;
+  border-top: 1px solid;
+  content: "";
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+:global .muicc-colorbox-sliders {
+  width: unset !important;
+}
+
+.recentColorsContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+  margin: 0 8px;
+}
+
+.recentColorsContainer > button {
+  margin: 0 0 5px 8px;
+}
+
+.recentColorsContainer > button:first-child {
+  margin: 0 0 5px;
+}
+
+.noColor {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin: 0 0 8px;
+}
+
+.noColorBtn {
+  padding: 0;
+  border: none;
+  margin: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.noColorText {
+  margin: 0 0 0 3px;
+  color: #384348;
+  font: 13px Roboto, serif;
+}

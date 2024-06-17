@@ -1,0 +1,15 @@
+.details {
+  min-width: 200px;
+  flex: 1;
+}
+
+div.details h5 {
+  margin-bottom: 10px;
+  font: 16px RobotoBold, serif;
+}
+
+.details span {
+  display: block;
+  font: 14px Roboto, serif;
+  font-style: italic;
+}

@@ -1,0 +1,452 @@
+{
+  "General": {
+    "Locale": "en-US",
+    "FailedToFetchData": "Failed to fetch data. Please try again later.",
+    "FailedToFetchRecipientsData": "Failed to fetch recipients data. Please try again later.",
+    "FailedToFetchCustomersData": "Failed to fetch customers data. Please try again later.",
+    "FailedToSaveSpecial": "Failed to save special. Please try again later.",
+    "FailedToSaveCampaign": "Failed to save campaign. Please try again later.",
+    "EmailBodyIsEmptyError": "Failed to save campaign, email body is empty.",
+    "PleaseSelectLocationError": "Please select location from the dropdown.",
+    "PleaseInputNameError": "From Name field is required.",
+    "PleaseInputEmailError": "Email Address is required.",
+    "PleaseInputSubjectError": "Subject is required.",
+    "Error": "Error",
+    "Close": "Close",
+    "Required": "Required*",
+    "RequiredField": "Required Field",
+    "Yes": "Yes",
+    "No": "No",
+    "RecipientCountError": "The recipient list for this campaign exceeds 30,000 recipients. Please adjust the filters or custom uploaded list in order to reduce the recipient list to less than 30,000. If you experience any further issues, please reach out to your support team.",
+    "FailedToFetchDefaultAccentColors": "Failed to fetch default accent colors.",
+    "FailedToSaveDefaultAccentColors": "Failed to save default accent colors.",
+    "ConfirmChanges": "Confirm Changes",
+    "Confirm": "Confirm",
+    "Cancel": "Cancel",
+    "Download": "Download"
+  },
+  "ErrorCodesMessages": {
+    "LocationNameNotFound": "Location name not found.",
+    "ClientPathWrong": "Client path is wrong.",
+    "WebsiteVariablesMissing": "This campaign contains images and URLs that are currently not configured. Contact Support to complete your account configuration before enabling this campaign."
+  },
+  "EmailBlastDashboard": {
+    "Heading": "Email Blast Dashboard",
+    "CreateNewBlast": "+ Create New Email Blast",
+    "AllLocations": "All Locations"
+  },
+  "InProgressTable": {
+    "Title": "In Progress",
+    "Edit": "Edit",
+    "Copy": "Copy",
+    "Delete": "Delete",
+    "CampaignName": "Campaign name",
+    "Location": "Location",
+    "SendDate": "Send Date",
+    "Status": "Status",
+    "Actions": "Actions",
+    "N/A": "N/A",
+    "SentEmailsLog": "Log"
+  },
+  "InProgressTableRow": {
+    "CampaignAlreadySentError": "Cannot perform action, Campaign is already being sent out.",
+    "CampaignSendingInProgressError": "This campaign is already in progress and cannot be edited or deleted.",
+    "FailedToDeleteCampaignError": "Failed to delete campaign, please try again later.",
+    "ConfirmDelete": "Are you sure you want to delete the email campaign?",
+    "Delete": "Delete",
+    "CopyCampaign": "Copy Campaign",
+    "ConfirmCopy": "Are you sure you want to duplicate this campaign?",
+    "WarningCopy": "Copying a campaign copies the selected recipient filters, email template, and email content. Additional edits can be made to the email before sending.",
+    "Copy": "Copy",
+    "Cancel": "Cancel",
+    "FailedToFetchCampaign": "Failed to fetch campaign, please try again later.",
+    "InvalidCampaignData": "Invalid campaign data, please contact support."
+  },
+  "SentCampaignsTable": {
+    "Date": "Date",
+    "Sent": "Sent",
+    "Read": "Read",
+    "Converted": "Converted",
+    "Unsubscribed": "Unsubscribed",
+    "InvalidDateFormat": "Invalid Date Format",
+    "MinDateMessage": "Date should not be before start date",
+    "MaxDateMessage": "Date should not be after end date"
+  },
+  "SentEmailBlastTableRow": {
+    "CopyCampaign": "Copy Campaign",
+    "ConfirmCopy": "Are you sure you want to duplicate this campaign?",
+    "WarningCopy": "Copying a campaign copies the selected recipient filters, email template, and email content. Additional edits can be made to the email before sending.",
+    "Copy": "Copy",
+    "Cancel": "Cancel"
+  },
+  "CreateAnEmailBlastSelectCategory": {
+    "Heading": "Create an Email Blast",
+    "BackBtn": "Back to Dashboard",
+    "SelectCategory": "Select Category",
+    "Holidays": "Holidays",
+    "HolidaysSubText": "Special occasions, usually occurring once per calendar year",
+    "Seasons": "Seasons",
+    "SeasonsSubText": "Winter, spring, summer, fall occasions",
+    "Events": "Events",
+    "EventsSubText": "Special causes/charities; such as Brakes for Breasts, tax refunds "
+  },
+  "CreateAnEmailBlastSelectEvent": {
+    "Heading": "Create an Email Blast",
+    "BackBtn": "Back to Categories",
+    "SelectEvent": "Select Event",
+    "Season": {
+      "Fall": "Fall",
+      "Spring": "Spring",
+      "Summer": "Summer",
+      "Winter": "Winter"
+    },
+    "Holiday": {
+      "BlackFriday": "Black Friday",
+      "BoxingDay": "Boxing Day",
+      "CanadaDay": "Canada Day",
+      "CyberMonday": "Cyber Monday",
+      "Christmas": "Christmas",
+      "Easter": "Easter",
+      "FamilyDay": "Family Day",
+      "FathersDay": "Father’s Day",
+      "Halloween": "Halloween",
+      "HappyHolidays": "Happy Holidays",
+      "IndependenceDay": "Independence Day",
+      "LaborDay": "Labor Day",
+      "MemorialDay": "Memorial Day",
+      "MothersDay": "Mother’s Day",
+      "NewYear": "New Year",
+      "StPatricksDay": "St Patrick’s Day",
+      "Thanksgiving": "Thanksgiving",
+      "ThanksgivingCanada": "Thanksgiving Canada",
+      "WomensDay": "Women's Day",
+      "ValentinesDay": "Valentines Day"
+    },
+    "Event": {
+      "BackToSchool": "Back to School",
+      "BreastCancerAwareness": "Breast Cancer Awareness",
+      "COVID-19": "COVID-19",
+      "TaxRefund": "Tax Refund",
+      "SevereWeather": "Severe Weather",
+      "GeneralDesigns": "General Designs"
+    }
+  },
+  "CreateAnEmailBlastSelectTemplate": {
+    "Heading": "Create an Email Blast",
+    "BackBtn": "Back to {{category}}",
+    "SelectTemplate": "Select Template",
+    "SelectDesign": "Select Design"
+  },
+  "TemplatePreviewDialog": {
+    "TemplatePreview": "Template Preview",
+    "SelectDesign": "Select Design"
+  },
+  "CreateAnEmailBlastDesignEdit": {
+    "Heading": "Create an Email Blast",
+    "BackBtnGallery": "Back to Gallery",
+    "BackBtnDashboard": "Back to Dashboard",
+    "GoBackText": "If you go back to template selection, your changes will be lost. Are you sure?",
+    "Confirm": "Confirm",
+    "Cancel": "Cancel"
+  },
+  "PreviewCampaign": {
+    "Heading": "Create an Email Blast",
+    "Subheading": "Preview and Send",
+    "BackBtn": "Back to Editor"
+  },
+  "ScheduleCampaign": {
+    "Heading": "Schedule and Send",
+    "SendASAPLabel": "Send ASAP",
+    "SendLaterLabel": "Schedule for Later",
+    "SendASAPText": "Email will send within the next 10 minutes",
+    "SendLaterText": "Email will send at the selected day and time",
+    "PastSendDateError": "Scheduled Date and Time must be in the future"
+  },
+  "ToSection": {
+    "Title": "To",
+    "Subtitle": "Who are you sending this email blast to?",
+    "SelectLocation": "Select Location",
+    "AllCustomers": "All Customers",
+    "GenerateCustomerList": "Generate list",
+    "FilteredCustomerList": "Filtered Customer List",
+    "UploadCustomList": "Upload a Custom List",
+    "EditRecipientFilters": "Edit Recipient Filters",
+    "SelectFile": "Select File",
+    "UploadCustomerListHelperText": "Select a CSV file with columns for Name and Email. While Name and Email columns are required, the Name field can be left blank for each recipient. All characters in the Name column will appear as the Name in the email, up to 256 characters. An optional third column for Vehicle can be added if you want to use a specific Vehicle keyword for each customer in the email.",
+    "OnlyCSVFilesAreAllowed": "Only CSV files are allowed.",
+    "InvalidCSVFormat": "Invalid format.",
+    "CSVErrorOccurred": "An error occurred. Please try again.",
+    "TotalRecipients": "Total Number of Recipients",
+    "ViewRecipientList": "View Recipient List"
+  },
+  "FromSection": {
+    "Title": "From",
+    "Subtitle": "Who is sending this email blast?",
+    "Name": "Name",
+    "DisplayName": "Display Name",
+    "NameHelperText": "Use something customers will instantly recognize, like your company name.",
+    "EmailAddress": "Email Address",
+    "PleaseEnterAValidEmail": "Please enter a valid email"
+  },
+  "SubjectSection": {
+    "Subject": "Subject",
+    "Subtitle": "What’s the subject line for this email blast?",
+    "EnterSubjectLine": "Enter Subject Line",
+    "SubjectHelperText": "A great subject line gives your customers a reason to open your email.",
+    "PreviewText": "Preview Text",
+    "EnterPreviewText": "Enter Preview Text",
+    "PreviewTextHelperText": "Preview text appears in the inbox after the subject line.",
+    "PreviewTextTooltipExplanation": "The preview text is a short message that displays after the subject line in your email. It's that teaser that gives more info about the email."
+  },
+  "EditRecipientFilters": {
+    "PopupTitle": "Create a Custom List",
+    "PopupSubtitle": "Use the filters below to create a custom list of recipients.",
+    "Filters": "Filters",
+    "AmountSpentWithinDateRangeFilter": "Total Amount Spent",
+    "CancelBtn": "Cancel",
+    "ConfirmBtn": "Confirm",
+    "ViewRecipientList": "View Recipient List"
+  },
+  "TotalRecipients": {
+    "TotalRecipients": "Total Recipients"
+  },
+  "TimeSinceLastVisitFilter": {
+    "TimeSinceLastVisitFilter": "Time Since Last Visit",
+    "TimeSinceLastVisitSubtitle": "Include customers based on the date of their last visit.",
+    "TimeSinceLastVisitInfo": "This blast will be sent to customers that have last visited between {{endMonths}} and {{startMonths}} months ago."
+  },
+  "ReviewRecipients": {
+    "Title": "Review Recipients",
+    "SearchByNameOrEmail": "Search by name or email address",
+    "Send": "Send",
+    "Search": "Search",
+    "Clear": "Clear",
+    "CustomerName": "Customer Name",
+    "CustomerAddress": "Customer Address",
+    "CustomerVehicle": "Customer Vehicle",
+    "VehicleTooltip": "The value in this column will be used if the Vehicle Keyword is added to the email body. If no Vehicle is provided, the word \"vehicle\" will be used in the email."
+  },
+  "TotalAmountSpent": {
+    "Title": "Total Amount Spent",
+    "OnlyIncludeCustomers": "Only include customers that have spent between:",
+    "And": "and",
+    "WithinTheFilteredRange": "within the filtered date range.",
+    "Currency": "$",
+    "MinAmountLabel": "Min. Amount",
+    "MaxAmountLabel": "Max. Amount",
+    "DefaultMinValue": "Min",
+    "DefaultMaxValue": "Max",
+    "MinValueMoreThanMaxError": "Minimum amount must be less than Maximum amount spent."
+  },
+  "CustomerVehicleMake": {
+    "Title": "Customer Vehicle Make",
+    "OnlyIncludeCustomers": "Only include customers who drive:",
+    "AddVehicle": "+Add vehicle as filter",
+    "DuplicatedMake": "This Make was already added as a filter.",
+    "Tooltip": "Multiple vehicle makes can be added but each must be entered one at a time."
+  },
+  "NumberOfVisitsFilter": {
+    "NumberOfVisitsFilter": "Number of Visits",
+    "CustomersWhoVisitedTheShopBetween": "Customers who visited the shop between:",
+    "And": "and",
+    "TimesWithinFilteredDateRange": "times within the filtered date range.",
+    "MinVisitsLabel": "Min. Visits",
+    "MinVisitsPlaceholder": "Min",
+    "MaxVisitsLabel": "Max. Visits",
+    "MaxVisitsPlaceholder": "Max",
+    "MinNumberOfVisitsMustBeLessThanMax": "Minimum number of visits must be less than Maximum number of visits."
+  },
+  "EditContentSection": {
+    "Title": "Edit Content",
+    "Subtitle": "Design the content for the email blast",
+    "AccentColorsHeading": "Accent Colors",
+    "AccentColorsSubText": "Customize your template with accent colors.",
+    "ImagesHeading": "Images",
+    "ImagesSubText": "Add additional images to your email.",
+    "TextHeading": "Text",
+    "TextSubText": "Need inspiration? Browse our sample messages.",
+    "SpecialOffersHeading": "Special Offers",
+    "SpecialOffersSubText": "A special offer will motivate your customers to take action. Add a special offer from your existing specials or create a new one.",
+    "ButtonsHeading": "Buttons",
+    "ButtonsSubText": "Add a call-to-action with an eye-catching button that links to a social media page or your appointment page."
+  },
+  "TextSection": {
+    "DropdownPlaceholder": "View Stock Content",
+    "CopyBtn": "Copy",
+    "CopiedBtn": "Copied"
+  },
+  "SpecialOffersSection": {
+    "DropdownPlaceholder": "Choose existing special",
+    "NewSpecialButton": "+ Add New Special",
+    "ExistingSpecialsTitle": "Existing Specials",
+    "HideSpecialFromWebsite": "Hide Special from Website",
+    "SpecialPreview": "Special Preview"
+  },
+  "PreviousEmailCampaignsFilter": {
+    "Title": "Previous Email Campaigns",
+    "Subtitle": "Only include customers that have not opened the previous email campaign:",
+    "EmailCampaign": "Email Campaign",
+    "NoneSelected": "None Selected"
+  },
+  "ExcludeFleetAccountsFilter": {
+    "CheckBoxLabel": "Exclude Fleet Accounts"
+  },
+  "FileUploader": {
+    "UploaderBtn": "+ Upload Image",
+    "DragAndDropBtn": "Drag and Drop Button",
+    "DragAndDropImg": "Drag and Drop Image",
+    "ValidationError": "Uploaded file must be .jpg, .jpeg or .png and less than 10MB",
+    "ImageUploadFailed": "Failed to upload image, please try again later."
+  },
+  "AccentColors": {
+    "ThemeColor": "Theme Color",
+    "LogoBackground": "Logo Background",
+    "MenuBackground": "Menu Background",
+    "MenuText": "Menu Text",
+    "FooterIcons": "Footer Icons",
+    "SetAsDefaultColor": "Set as Default Color",
+    "UpdateDefaultColor": "Update Default Color"
+  },
+  "ColorPickerFixedColors": {
+    "DarkBlue": "Dark Blue",
+    "Blue": "Blue",
+    "LightBlue": "Light Blue",
+    "Teal": "Teal",
+    "Black": "Black",
+    "DarkRed": "Dark Red",
+    "Red": "Red",
+    "Green": "Green",
+    "LightGreen": "Light Green",
+    "DarkOrange": "Dark Orange",
+    "Orange": "Orange",
+    "Yellow": "Yellow",
+    "LightPink": "Light Pink",
+    "DarkPink": "Dark Pink"
+  },
+  "Editor": {
+    "AddVariable": "Add variable"
+  },
+  "AddNewSpecial": {
+    "CreateNewSpecialTitle": "Create New Special",
+    "CreateNewSpecialSubtitle": "Creating a new special will add it to your specials tab",
+    "SpecialTitle": "Special Title",
+    "EnterSpecialTitle": "Enter Special Title",
+    "SpecialDescription": "Special Description",
+    "EnterSpecialDescription": "Enter Special Description",
+    "Cancel": "Cancel",
+    "CancelDialogText": "Are you sure? You will lose all your changes",
+    "Yes": "Yes",
+    "No": "No",
+    "PreviewSpecial": "Preview Special",
+    "Edit": "Edit",
+    "ConfirmAndAddSpecial": "Confirm and Add Special"
+  },
+  "ExpirationDate": {
+    "SelectPlaceholder": "Select Expiration Date",
+    "CheckBoxLabel": "Expiration Date",
+    "DaysFromView": "days from view",
+    "WeekFromView": "week from view",
+    "WeeksFromView": "weeks from view",
+    "MonthsFromView": "months from view",
+    "CustomExpirationDate": "Custom Expiration Date"
+  },
+  "SpecialPreview": {
+    "MakeAnAppointment": "MAKE AN APPOINTMENT"
+  },
+  "SpecialDetails": {
+    "SpecialDetails": "Special Details",
+    "ExpirationDate": "Special Expiration:",
+    "DayFromView": "day from view",
+    "DaysFromView": "days from view",
+    "WeekFromView": "week from view",
+    "WeeksFromView": "weeks from view",
+    "MonthFromView": "month from view",
+    "MonthsFromView": "months from view",
+    "VisibleOnWebsite": "Special visible on website",
+    "HiddenFromWebsite": "Special not visible on website",
+    "NoExpirationDate": "No expiration date"
+  },
+  "NewSpecialPreview": {
+    "SpecialPreview": "Special Preview",
+    "WarningMessage": "Please review your special carefully. Once the special is confirmed, it can only be edited in the Specials tab."
+  },
+  "SaveButtonsContainer": {
+    "SaveAsDraft": "Save as Draft",
+    "SaveAndContinue": "Save and Continue",
+    "SaveFinish": "Finish",
+    "CampaignAlreadySentError": "Failed to save campaign, it is already being sent out.",
+    "CampaignSendingInProgressError": "This campaign is already in progress and cannot be edited or deleted.",
+    "FailedToVerifyCampaign": "Failed to verify campaign status, please try again later."
+  },
+  "SelectedRecipients": {
+    "Heading": "Selected Recipients",
+    "TotalNumberOfRecipients": "Total Number of Recipients",
+    "Location": "Location",
+    "TimeSinceLastVisit": "Time since last visit",
+    "BetweenTimeSinceLastVisit": "Between {{min}} and {{max}} months",
+    "NumberOfVisits": "Number Of Visits",
+    "BetweenNumberOfVisits": "Between {{min}} and {{max}} visits",
+    "TotalAmountSpent": "Total Amount Spent",
+    "BetweenTotalAmountSpent": "Between {{min}} and {{max}}",
+    "PreviousEmailCampaigns": "Previous Email Campaigns",
+    "PreviousEmailCampaignDescription": "Customers who did not open",
+    "CustomerVehiclesMakes": "Customer Vehicle Makes",
+    "ExcludeFleetAccounts": "Exclude Fleet Accounts"
+  },
+  "Buttons": {
+    "FacebookButton": "+ Facebook Link",
+    "GoogleButton": "+ Google Link",
+    "YelpButton": "+ Yelp Link",
+    "AppointmentButton": "+ Appointment Link",
+    "WebsiteButton": "+ Website Link",
+    "OptInButton": "+ Opt-In Link",
+    "SelectLocation": "Please select a location."
+  },
+  "SharePreview": {
+    "SharePreviewTitle": "Share Preview",
+    "ShareLinkToPreviewPage": "Share Link to Preview Page",
+    "CopyLink": "Copy Link",
+    "CopiedMessage": "Link has been copied and can be pasted and sent to another user.",
+    "PreviewLinkError": "You do not have permission to view this email. Contact KUKUI for assistance.",
+    "SendTestEmailTitle": "Send Test Email",
+    "EmailAddressPlaceholder": "Email Address",
+    "SendButtonText": "Send",
+    "PreviewSuccessfullySent": "A preview has been successfully sent.",
+    "FailedToSendTestEmail": "Failed to send test email. Please try again."
+  },
+  "SentEmailsLog": {
+    "EmailBlastMetrics": "Email Blast Metrics",
+    "TotalSent": "Total Sent",
+    "Opened": "Opened",
+    "Export": "Export",
+    "SearchByNameOrEmail": "Search by name or email address",
+    "Send": "Send",
+    "Search": "Search",
+    "Clear": "Clear",
+    "CustomerName": "Customer Name",
+    "CustomerAddress": "Customer Address",
+    "SentDate": "Sent Date",
+    "Read": "Read",
+    "Converted": "Converted",
+    "Unsubscribed": "Unsubscribed",
+    "ExportButton": "Export"
+  },
+  "CampaignDetails": {
+    "Title": "Campaign Details",
+    "Location": "Location",
+    "CampaignName": "Campaign name",
+    "EmailFromName": "Email From Name",
+    "EmailFromAddress": "Email From Address",
+    "ScheduledSendDate": "Scheduled Send Date"
+  },
+  "CampaignStatuses": {
+    "Draft": "Draft",
+    "Scheduled": "Scheduled",
+    "Sent": "Sent",
+    "InProgress": "In Progress"
+  },
+  "DefaultAccentColorsConfirmation": {
+    "DefaultColorsWillBeAppliedMessage": "The default color(s) will be applied to future email blasts.",
+    "DoYouWishToConfirm": "Do you wish to confirm?"
+  }
+}

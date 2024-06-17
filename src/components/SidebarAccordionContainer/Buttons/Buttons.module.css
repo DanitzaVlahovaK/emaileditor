@@ -1,0 +1,66 @@
+.button {
+  padding: 8px 10px;
+  border: 2px solid rgb(51, 97, 158);
+  margin: 5px 0;
+  border-radius: 30px;
+  color: rgb(51, 97, 158);
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+}
+
+.buttonSelected {
+  background-color: rgb(51, 97, 158);
+  color: white;
+}
+
+.flexRowParent {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.flexColumnButtons {
+  min-width: 170px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.flexColumnDraggable {
+  display: flex;
+  min-width: 220px;
+  height: min-content;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  background-color: #e6e6e6;
+  border-radius: 10px;
+}
+
+.noBackground {
+  background: none;
+}
+
+.dragDropBtn {
+  cursor: pointer;
+}
+
+.draggableIcon {
+  display: flex;
+  height: 100px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1732px) {
+  .flexColumnButtons {
+    min-width: 120px;
+    font-size: 14px !important;
+  }
+}

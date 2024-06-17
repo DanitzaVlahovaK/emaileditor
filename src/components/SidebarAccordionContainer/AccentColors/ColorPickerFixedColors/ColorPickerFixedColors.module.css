@@ -1,0 +1,60 @@
+.colorPickerContainer {
+  margin: 17px 0 0 0;
+}
+
+.colorPickerHeading {
+  font: 16px RobotoBold, serif;
+}
+
+.selectContainer {
+  display: flex;
+  align-items: center;
+}
+
+.colorPickerSelect {
+  width: 195px !important;
+  height: 35px !important;
+  margin: 5px 0 0 0;
+  border-radius: 6px !important;
+  color: #384348 !important;
+  font: 15px Roboto, serif !important;
+}
+
+.colorPickerSelect > div {
+  display: flex;
+  align-items: center;
+}
+
+.colorPickerSelect > div:focus {
+  background-color: unset !important;
+}
+
+.colorBtn {
+  width: 35px !important;
+  height: 35px !important;
+  margin: 0 0 0 14px !important;
+  border-radius: 6px !important;
+}
+
+.menuItemColorBtn {
+  position: relative;
+  width: 16px !important;
+  height: 16px !important;
+  margin: 0 12px 0 0 !important;
+  border-radius: 6px !important;
+}
+
+.strikethrough::after {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  border-color: #ff0000 !important;
+  border-top: 1px solid;
+  content: "";
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}

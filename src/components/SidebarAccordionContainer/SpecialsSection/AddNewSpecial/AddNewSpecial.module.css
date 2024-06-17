@@ -1,0 +1,81 @@
+.checkbox {
+  color: #0094e2 !important;
+}
+
+.checkboxLabel {
+  color: #384348 !important;
+  font: 14px RobotoBold, serif !important;
+}
+
+.createNewSpecialTitle {
+  font: 20px RobotoBold, serif !important;
+}
+
+.createNewSpecialMainSubTitle {
+  color: #384348 !important;
+  font: 16px Roboto, serif !important;
+}
+
+.specialSectionHeading {
+  margin-top: 20px !important;
+  font: 16px RobotoBold, serif !important;
+}
+
+.specialTitleInput {
+  width: 325px !important;
+  height: 37px !important;
+}
+
+.specialDataContainer {
+  min-height: 83px;
+}
+
+.flexContainer {
+  display: flex;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonsContainer {
+  align-self: flex-end;
+}
+
+.cancelButton {
+  color: #1492e6 !important;
+  font: 16px RobotoBold, serif !important;
+  text-transform: none !important;
+}
+
+.previewBtn {
+  height: 36px;
+  padding: 8px 19px !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+  font: 16px/18px RobotoBold, serif !important;
+  text-transform: unset !important;
+}
+
+.previewBtn:hover {
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+    0 1px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+.previewBtnInactive {
+  background: #f3f3f3 !important;
+  color: #949494 !important;
+}
+
+.previewBtnActive {
+  background: #00c975 !important;
+  color: #ffffff !important;
+}
+
+.row {
+  display: flex;
+  min-height: 90px;
+  flex-direction: row;
+  justify-content: space-between;
+}

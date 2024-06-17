@@ -1,0 +1,118 @@
+.editorContainer {
+  margin: 20px;
+}
+
+.customBtn {
+  width: 100px !important;
+}
+
+:global .insertedLink:not([data-color=""]) {
+  color: #00a0c9 !important;
+  text-decoration: underline !important;
+}
+
+:global [data-appointment] .insertedLink {
+  color: #ffffff !important;
+  text-decoration: auto !important;
+}
+
+:global .sun-editor {
+  border-radius: 20px 20px 0 0;
+}
+
+:global .se-btn-tray {
+  background: #444444;
+  border-radius: 10px 10px 0 0;
+}
+
+:global .se-btn-module {
+  border: 1px solid #bebebe !important;
+  background: #ffffff !important;
+  border-radius: 5px !important;
+}
+
+:global .se-toolbar.sun-editor-common {
+  border-radius: 20px 20px 0 0 !important;
+}
+
+:global .sun-editor .se-dialog .se-dialog-inner .se-dialog-header {
+  height: unset !important;
+  padding: 10px 15px !important;
+  border-bottom: none !important;
+}
+
+:global .sun-editor .se-dialog .se-dialog-inner .se-dialog-header .se-modal-title {
+  color: #384348 !important;
+  float: unset !important;
+  font: 26px RobotoBold, serif !important;
+  font-weight: unset !important;
+}
+
+:global .sun-editor .se-dialog .se-dialog-inner .se-dialog-content {
+  margin: 7% auto 0 !important;
+}
+
+:global .sun-editor .se-dialog .se-dialog-inner .se-dialog-content label {
+  color: #384348 !important;
+  font: 20px RobotoBold, serif !important;
+}
+
+:global .sun-editor .se-dialog .se-dialog-inner .se-dialog-form {
+  margin-bottom: 20px !important;
+}
+
+:global .sun-editor .se-dialog .se-dialog-inner .se-dialog-form-footer label:first-child {
+  color: #384348 !important;
+  font: 16px RobotoBold, serif !important;
+}
+
+:global .sun-editor .se-dialog .se-dialog-inner .se-dialog-form-footer {
+  margin-top: 20px !important;
+}
+
+:global .sun-editor .se-dialog .se-dialog-inner .se-dialog-footer {
+  border-top: none !important;
+}
+
+:global .sun-editor .se-dialog .se-dialog-inner .se-dialog-content .se-btn-primary {
+  padding: 10px 22px !important;
+  background: #2cc96e 0 0 no-repeat padding-box !important;
+  color: #ffffff;
+  font: 16px RobotoBold, serif !important;
+  text-transform: uppercase;
+}
+
+:global .sun-editor .se-dialog .se-dialog-inner .se-dialog-content .se-btn-cancel {
+  border: none;
+  margin: 0 20px 10px 0 !important;
+  background: none !important;
+  color: #1492e6;
+  text-transform: none;
+}
+
+:global .sun-editor .se-dialog .se-dialog-inner .se-dialog-header .se-dialog-close {
+  background: #929292;
+  color: #ffffff;
+}
+
+:global .sun-editor .se-dialog .se-dialog-inner .se-dialog-content > form {
+  background: #ffffff !important;
+}
+
+:global .sunEditorHyperlinkImage {
+  width: 100%;
+  height: 100%;
+  background: center url("../../assets//images/link.svg") no-repeat;
+}
+
+:global .sunEditorUndoImage {
+  width: 100%;
+  height: 100%;
+  background: center url("../../assets/images/undo.svg") no-repeat;
+}
+
+:global .sunEditorRedoImage {
+  width: 100%;
+  height: 100%;
+  background: center url("../../assets/images/redo.svg") no-repeat;
+}

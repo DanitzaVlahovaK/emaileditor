@@ -1,0 +1,55 @@
+.formContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: 10px 20px;
+}
+
+.formControl {
+  min-width: 200px !important;
+  flex: 2;
+}
+
+.subTitle {
+  margin-bottom: 5px !important;
+  font: 16px Roboto, serif !important;
+  font-weight: bold !important;
+}
+
+.btn {
+  min-width: 157px !important;
+  flex: 1;
+  padding: 9px 7px 11px 7px !important;
+  background-color: #2cc96e !important;
+  border-radius: 6px !important;
+  font: 16px RobotoBold, serif !important;
+  text-transform: unset !important;
+}
+
+.specialPreviewTitle {
+  margin-bottom: 7px;
+  font: 16px RobotoBold, serif !important;
+  text-align: center;
+}
+
+.specialContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.dragDropBtnContainer {
+  flex: 1;
+}
+
+.dragDropBtn {
+  width: 176px;
+  height: 43px;
+  cursor: pointer;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px 0 0 0;
+  gap: 20px;
+}

@@ -1,0 +1,49 @@
+﻿.textSectionContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.selectStockContent {
+  width: 70%;
+  margin-bottom: 15px;
+}
+
+.copyBtnWrapper {
+  text-align: right;
+}
+
+.copyBtn:hover {
+  border: 1px solid #33619e;
+  background: #e6e6e6;
+  color: #33619e;
+}
+
+.textSectionContainer .copyBtnWrapper .copyBtn {
+  max-width: 90px;
+  border: 1px solid #33619e;
+  background: #33619e;
+  border-radius: 5px;
+  color: #ffffff;
+  font: 16px RobotoBold, serif;
+  text-transform: initial;
+}
+
+.copyBtn svg {
+  transform: rotate(270deg);
+}
+
+.stockContentPreview {
+  height: 140px;
+  padding: 15px;
+  border: 1px solid #bdbdbd;
+  margin-bottom: 7px;
+  border-radius: 4px;
+  overflow-y: scroll;
+}
+
+@media (max-width: 1440px) {
+  .selectStockContent {
+    width: 100%;
+  }
+}

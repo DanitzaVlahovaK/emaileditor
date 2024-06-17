@@ -1,0 +1,40 @@
+.editContentSectionContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.sideBar {
+  position: sticky;
+  top: 0;
+  min-width: 327px;
+  max-height: 680px;
+  flex: 1;
+  flex-direction: column;
+  order: 0;
+  overflow-y: auto;
+}
+
+.editorContainer {
+  flex: 1;
+  flex-grow: 2;
+  order: 1;
+  margin: 0 0 0 11px;
+}
+
+@media (min-width: 1601px) {
+  .sideBar {
+    max-width: 518px;
+  }
+
+  .topOffset {
+    top: 103px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .sideBar {
+    position: relative;
+  }
+}

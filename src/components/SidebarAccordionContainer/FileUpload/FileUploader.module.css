@@ -1,0 +1,38 @@
+.uploaderBtnWrapper {
+  width: 100%;
+}
+
+.uploaderBtnWrapper .uploaderBtn {
+  padding: 12px 25px;
+  border: 1px solid #33619e;
+  margin: 0 0 35px 0;
+  background: #33619e;
+  border-radius: 25px;
+  color: #ffffff;
+  font: 16px RobotoBold, serif !important;
+  text-transform: initial;
+}
+
+.uploaderBtn:hover {
+  border: 1px solid #33619e;
+  background: #e6e6e6;
+  color: #33619e;
+}
+
+.imageWrapper {
+  max-width: 205px;
+  padding: 15px;
+  margin: 0 auto;
+  background: #e6e6e6;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.uploadedImg {
+  max-width: 175px;
+  margin: 0 auto 5px;
+}
+
+.dragDropBtn:hover {
+  cursor: pointer;
+}
